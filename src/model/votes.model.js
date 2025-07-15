@@ -14,3 +14,6 @@ const voteModel = new mongoose.Schema({
 {
     timeseries: true,
 })
+
+const vote = mongoose.model("vote", voteModel)
+export default vote;
